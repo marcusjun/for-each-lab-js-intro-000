@@ -1,8 +1,7 @@
-//var array=[]
-
-function iterativeLog(array,callback){
-  array.forEach(callback)
-  //array.push(`${index}: ${element}`))
+function iterativeLog(array){
+  array.forEach(callback=>{
+    console.log(`${index}: ${element}`)
+  })
 }
 
 function iterate(callback){
